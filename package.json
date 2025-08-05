@@ -1,6 +1,5 @@
 {
   "name": "codespaces-react",
-  "homepage": "https://csandersge.github.io/Zville-playboook-game3/",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -21,9 +20,7 @@
     "start": "BROWSER=none WDS_SOCKET_PORT=0 vite --port 3000",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "test": "vitest"
   },
   "eslintConfig": {
     "extends": [
